@@ -1,0 +1,9 @@
+Row,beta_1,beta_2,beta_3
+mid bias,-0.0005,-0.0003,-0.0034
+upper bias,0.0075,0.008,0.0083
+lower bias,-0.0085,-0.0086,-0.015
+mean(u-l),0.016,0.0166,0.0233
+standard deviation,0.0299,0.0308,0.0431
+root MSE (coord),0.0288,0.0296,0.0417
+root MSE (vector),0.0587,0.0587,0.0587
+mean norm deviation (MND),0.0511,0.0511,0.0511
