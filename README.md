@@ -65,6 +65,7 @@ Replication-Package/
 │   │   │ 
 │   │   └── result_table_4_5/
 │   │       ├──table4.csv
+│   │       ├──run_table4_blp_lite_grid.m
 │   │       └──table5.csv
 │   │
 │   ├── table_6/
