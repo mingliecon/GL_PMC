@@ -97,7 +97,13 @@ Replication-Package/
 │   │
 │   ├── figure_2_3/
 │   │   ├── src_figure_2_3/
+│   │   │   ├──code_fig_2_3.m
+│   │   │   ├──run_fig_2_3.m
+│   │   │   └──Qfunc.m
+│   │   │ 
 │   │   └── result_figure_2_3/
+│   │       ├──Sim_3D_Grid_sieve_theta_1.png
+│   │       └──Sim_3D_trues_beta_1.png
 │   │
 │   ├── result_simulation/
 │   └── run_simulation.m
