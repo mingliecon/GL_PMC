@@ -31,7 +31,45 @@ Inside each subfolder:
 
 Example: Running `run_table_1_2.m` in `/simulation/table_1_2/src_table_1_2` generates Tables 1 and 2 inside `/simulation/table_1_2/result_table_1_2` and `/simulation/result_simulation`.
 
----
+```plaintext
+Replication-Package/
+│
+├── algorithm/
+│
+├── empirical/
+│   ├── table_4_5/
+│   │   ├── src_table_4_5/
+│   │   └── result_table_4_5/
+│   │
+│   ├── table_6/
+│   │   ├── src_table_6/
+│   │   └── result_table_6/
+│   │
+│   ├── result_empirical/
+│   └── run_empirical.m
+│
+├── simulation/
+│   ├── table_1_2/
+│   │   ├── src_table_1_2/
+│   │   └── result_table_1_2/
+│   │
+│   ├── table_7/
+│   │   ├── src_table_7/
+│   │   └── result_table_7/
+│   │
+│   ├── table_8/
+│   │   ├── src_table_8/
+│   │   └── result_table_8/
+│   │
+│   ├── figure_2_3/
+│   │   ├── src_figure_2_3/
+│   │   └── result_figure_2_3/
+│   │
+│   ├── result_simulation/
+│   └── run_simulation.m
+│
+└── README.md
+```
 
 ## 2. Code execution instructions
 
