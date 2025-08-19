@@ -8,8 +8,11 @@ This github repository accompanies Gao and Li, *“Identification of Semiparamet
 It contains all the codes and results to replicate tables and figures of the paper. However, empirical datasets are not included due to confidentiality, so table 3, 4, 5 may not be able to be replicated using codes in this repository
 
 ---
+## 1. Introduction of the project
+we could add a description of the project, such as the abstract of the paper here ???
 
-## 1. Description of package content
+
+## 2. Description of package content
 
 The replication package includes all raw data and codes for replicating the tables and figures in the paper.  
 
@@ -139,7 +142,7 @@ Replication-Package/
 └── README.md
 ```
 
-## 2. Computational requirements
+## 3. Computational requirements
 
 **Hardware used:**  
 - (Specify your hardware setup if needed)
