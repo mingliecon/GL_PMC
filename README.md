@@ -1,4 +1,4 @@
-# Repository of replication code for: Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects
+# Repository of Replication Codes for: Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects
 
 Author: Wayne Yuan Gao and Ming Li  
 Change of Date: August, 2025
@@ -35,6 +35,8 @@ Example: Running `run_table_1_2.m` in `/simulation/table_1_2/src_table_1_2` gene
 Replication-Package/
 │
 ├── algorithm/
+│
+├── paper/
 │
 ├── empirical/
 │   ├── table_4_5/
