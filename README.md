@@ -70,15 +70,20 @@ Replication-Package/
 │   │   ├── src_table_7/
 │   │   │   ├──PointNID
 │   │   │   │     ├──create_interaction_variables.m
-│   │   │   │     ├──simulation_nid_old.m
 │   │   │   │     ├──run_pointnid.m
 │   │   │   │     ├──Qfunc.m
 │   │   │   │     └──simulation_nid.m
 │   │   │   │ 
 │   │   │   ├──PointID
+│   │   │   │     ├──create_interaction_variables.m
+│   │   │   │     ├──run_pointid.m
+│   │   │   │     ├──Qfunc.m
+│   │   │   │     └──simulation_id.m
+│   │   │   │
 │   │   │   └──run_table_7.m
 │   │   │
 │   │   └── result_table_7/
+│   │       └──table7.csv
 │   │
 │   ├── table_8/
 │   │   ├── src_table_8/
