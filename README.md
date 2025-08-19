@@ -1,11 +1,13 @@
 # Repository of Replication Codes for: Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects
 
-Author: Wayne Yuan Gao and Ming Li  
-Change of Date: August, 2025
+**Authors:** Wayne Yuan Gao and Ming Li  
+**Last Updated:** August 2025  
 
-This github repository accompanies Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*
+This repository provides the replication codes for Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*  
 
-It contains all the codes and results to replicate tables and figures of the paper. However, empirical datasets are not included due to confidentiality, so table 3, 4, 5 may not be able to be replicated using codes in this repository
+It contains all scripts and output files necessary to reproduce the tables and figures reported in the paper.  
+> ⚠️ **Note**: Due to confidentiality restrictions, the empirical datasets are not included in this repository. As a result, Tables 3–5 cannot be fully replicated, though the corresponding code is provided.
+
 
 ---
 ## 1. Introduction of the project
