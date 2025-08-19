@@ -5,6 +5,7 @@ June 10, 2025
 
 This replication package accompanies Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*
 
+Empirical datasets are not uploaded on this repository due to confidentiality
 ---
 
 ## 1. Description of package content
