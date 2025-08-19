@@ -137,28 +137,7 @@ Replication-Package/
 └── README.md
 ```
 
-## 2. Code execution instructions
-
-**Simulation results**  
-1. Run `run_simulation.m` in `/simulation`.  
-2. Outputs: Tables 1–2, Tables 7–8, Figures 2–3 → `/simulation/result_simulation`.  
-
-**Empirical results**  
-1. Run `run_empirical.m` in `/empirical`.  
-2. Outputs: Tables 3–6 → `/empirical/result_empirical`.  
-
-**Specific tables or figures**  
-- Run the corresponding `run_*.m` file in the respective subfolder.  
-- Results will be saved in the associated `result_*` folder.  
-
-**Parallel Processing**  
-- Run with multiple cores using: `run_empirical(N)` (where `N` = number of cores).  
-- Example: `run_empirical(12)` for 12 cores.  
-- Check available cores in MATLAB with `feature('numcores')` or `maxNumCompThreads`.
-
----
-
-## 3. Computational requirements
+## 2. Computational requirements
 
 **Hardware used:**  
 - (Specify your hardware setup if needed)
@@ -172,21 +151,3 @@ Replication-Package/
 
 ---
 
-## 4. List of tables and figures
-
-### Simulation Results
-| Table/Figure | Code | Folder | Output Folder | Notes |
-|--------------|------|--------|---------------|-------|
-| Table 1–2 | `run_simulation.m` | `/simulation/table_1_2` | `/simulation/table_1_2/result_table_1_2` and `/simulation/result_simulation` | Results split into upper and bottom parts |
-| Table 7 | `run_simulation.m` | `/simulation/table_7` | `/simulation/table_7/result_table_7` and `/simulation/result_simulation` |  |
-| Table 8 | `run_simulation.m` | `/simulation/table_8` | `/simulation/table_8/result_table_8` and `/simulation/result_simulation` |  |
-| Figures 2–3 | `run_simulation.m` | `/simulation/figure_2_3` | `/simulation/figure_2_3/result_figure_2_3` and `/simulation/result_simulation` |  |
-
-### Empirical Results
-| Table/Figure | Code | Folder | Output Folder |
-|--------------|------|--------|---------------|
-| Table 3 | `run_empirical.m` | `/empirical/table_3` | `/empirical/table_3/result_table_3` and `/empirical/result_empirical` |
-| Table 4–5 | `run_empirical.m` | `/empirical/table_4_5` | `/empirical/table_4_5/result_table_4_5` and `/empirical/result_empirical` |
-| Table 6 | `run_empirical.m` | `/empirical/table_6` | `/empirical/table_6/result_table_6` and `/empirical/result_empirical` |
-
----
