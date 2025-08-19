@@ -1,4 +1,4 @@
-alpha,betam,betaCyclicMono,betaOLS,betaOLS_FE,betaMLogit_FE
-0.15,91.5,0,0,0,28
-0.3,85.9,0,0,0,0.2
-0.5,74.2,0,0,0,0
+alpha,betam,betaCyclicMono,betaOLS,betaOLS_FE,betaMLogit_FE,betaRCLM
+0.15,91.5,0,0,0,28,0
+0.3,85.9,0,0,0,0.2,0
+0.5,74.2,0,0,0,0,0

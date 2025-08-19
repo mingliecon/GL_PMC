@@ -23,7 +23,7 @@ function run_table_6(varargin)
     if nargin > 0
         core = varargin{1};
     else
-        core = 7;
+        core = 12;
     end
     
     fprintf('\nYou are running with %d cores\n\n', core)
@@ -65,8 +65,16 @@ function run_table_6(varargin)
     ols_logit_0_15 = load('OLS_LOGIT/alpha_0_15_results.mat');
     
     disp('OLS/Logit data loaded successfully.');
-    
-    %% 4. Create Table 6
+
+    %% 4. Run BLP and load its data files
+    run('BLP/run_blp_lite_table6.m');
+    %%
+    load('BLP/sign_recovery_results.mat');
+    %%
+    beta_blp = sign_recovery_table.Percentage_Correct_Signs;
+    %%
+
+    %% 5. Create Table 6
     
     alpha_values = [0.15; 0.3; 0.5];
     
@@ -78,14 +86,14 @@ function run_table_6(varargin)
     beta_ols_fe = [ols_logit_0_15.ofe_pct*100; ols_logit_0_3.ofe_pct*100; ols_logit_0_5.ofe_pct*100];
     beta_mlogit_fe = [ols_logit_0_15.mfe_pct*100; ols_logit_0_3.mfe_pct*100; ols_logit_0_5.mfe_pct*100];
     
-    % Create the table 6
-    Table6 = table(alpha_values, beta_m, beta_cyclic_mono, beta_ols, beta_ols_fe, beta_mlogit_fe, ...
-        'VariableNames', {'alpha', 'betam', 'betaCyclicMono', 'betaOLS', 'betaOLS_FE', 'betaMLogit_FE'});
+    % Create Table 6 with the new betaBLP column
+    Table6 = table(alpha_values, beta_m, beta_cyclic_mono, beta_ols, beta_ols_fe, beta_mlogit_fe, beta_blp, ...
+        'VariableNames', {'alpha', 'betam', 'betaCyclicMono', 'betaOLS', 'betaOLS_FE', 'betaMLogit_FE', 'betaRCLM'});
     
-    % Display the table with the title
+    % Display the table
     disp('Table 6: Percentage of Correct Signs of Estimated Coefficients');
-    disp(Table6);
-    
+    disp(Table6)
+        
     %% Save as table6.csv
     writetable(Table6, '../result_table_6/table6.csv');
     writetable(Table6, '../../result_empirical/table6.csv');

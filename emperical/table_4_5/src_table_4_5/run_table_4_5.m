@@ -114,9 +114,15 @@ function run_table_4_5(varargin)
         cross_beta_log_m, cross_beta_log_l, cross_beta_log_u);
     
     disp('Finish Generation of table 4.m...')
+
+    %% Step 4: Run BLP method
+    run('run_table4_blp_lite_grid.m');
+    %%
+    load("beta_hat_results_.mat")
     
-    %% Step 4: Generate table 5
+    %% Step 5: Generate table 5
     run('cyclic_src/run_cyclic.m');
+    %%
     run('ols_olsfe_mlogitfe_src/run_ols_olsfe_mlogitfe.m')
     %%
     load('beta_B.mat');        % Results from Table_4_5.m
@@ -124,7 +130,8 @@ function run_table_4_5(varargin)
     
     load('cyclic_result.mat')
     load('ols_olsfe_mlogitfe_result.mat')
-        price_beta_m = round(beta_B(2,1),4);
+    load("beta_hat_results_.mat")
+    price_beta_m = round(beta_B(2,1),4);
     price_beta_l = round(beta_B(1,1),4);
     price_beta_u = round(beta_B(3,1),4);
     promo_beta_m = round(beta_B(2,2),4);
@@ -155,17 +162,18 @@ function run_table_4_5(varargin)
     col3 = round(ols_norm, 4);
     col4 = round(olsfe_norm, 4);
     col5 = round(mlogitfe_norm, 4);
+    col6 = round(beta_hat(:), 4);
     
     
     % Create row names
     rowNames = {'Price_{ijt}'; 'Promo_{ijt}'; 'Price_{ijt} × Promo_{ijt}'};
     
-    % Create the table
-    T = table(col1, col2, col3, col4, col5, ...
-        'RowNames', rowNames, ...
-        'VariableNames', {'β_c=0.14^n', 'β_CyclicMono', 'β_OLS', 'β_OLS-FE', 'β_MLogit-FE'});
-    
-    % Display the table with a title
+   T = table(col1, col2, col3, col4, col5, col6, ...
+    'RowNames', rowNames, ...
+    'VariableNames', {'β_c=0.14^n', 'β_CyclicMono', 'β_OLS', 'β_OLS-FE', 'β_MLogit-FE', 'β_RCLM'});
+
+    % Display the table
+    disp('Table 5 with BLP estimates:')
     disp(T);
 
     writetable(T, '../result_table_4_5/table5.csv', 'WriteRowNames', false);
