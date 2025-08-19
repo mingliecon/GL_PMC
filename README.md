@@ -1,11 +1,11 @@
-# Replication Package for: Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects
+# Repository of replication code for: Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects
 
-Wayne Yuan Gao and Ming Li  
-June 10, 2025
+Author: Wayne Yuan Gao and Ming Li  
+Change of Date: August, 2025
 
-This replication package accompanies Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*
+This github repository accompanies Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*
 
-Note: Empirical datasets are not uploaded on this repository due to confidentiality 
+It contains all the codes and results to replicate tables and figures of the paper. However, empirical datasets are not included due to confidentiality, so table 3, 4, 5 may not be able to be replicated using codes in this repository
 
 ---
 
@@ -39,13 +39,33 @@ Replication-Package/
 ├── empirical/
 │   ├── table_4_5/
 │   │   ├── src_table_4_5/
+│   │   │   ├──create_interaction_variables.m
+│   │   │   ├──Qfunc.m
+│   │   │   ├──Table_4_nlogn.m
+│   │   │   ├──Table_4.m
+│   │   │   └──run_table_4_5.m
+│   │   │ 
 │   │   └── result_table_4_5/
+│   │       ├──table4.csv
+│   │       └──table5.csv
 │   │
 │   ├── table_6/
 │   │   ├── src_table_6/
+│   │   │   ├──GL
+│   │   │   │   ├──create_interaction_variables.m
+│   │   │   │   ├──Qfunc.m
+│   │   │   │   ├──Gl_Table6.m
+│   │   │   │   └──run_GL.m
+│   │   │   └──run_table_6.m
+│   │   │  
 │   │   └── result_table_6/
+│   │       └──table6.csv
 │   │
 │   ├── result_empirical/
+│   │   ├──table4.csv
+│   │   ├──table5.csv
+│   │   └──table6.csv
+│   │
 │   └── run_empirical.m
 │
 ├── simulation/
