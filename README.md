@@ -51,10 +51,33 @@ Replication-Package/
 ├── simulation/
 │   ├── table_1_2/
 │   │   ├── src_table_1_2/
+│   │   │   ├──create_interaction_variables.m
+│   │   │   ├──main_mc_agg.m
+│   │   │   ├──mc_agg_0_setup.m
+│   │   │   ├──mc_agg_1_dgp.m
+│   │   │   ├──mc_agg_2_gamma.m
+│   │   │   ├──mc_agg_3_beta_D3.m
+│   │   │   ├──mc_agg_4_evaluation.m
+│   │   │   ├──Qfunc.m
+│   │   │   └──run_table_1_2.m
+│   │   │
 │   │   └── result_table_1_2/
+│   │       ├──table1.csv
+│   │       ├──table2_bottom_part.csv
+│   │       └──table2_upper_part.csv
 │   │
 │   ├── table_7/
 │   │   ├── src_table_7/
+│   │   │   ├──PointNID
+│   │   │   │     ├──create_interaction_variables.m
+│   │   │   │     ├──simulation_nid_old.m
+│   │   │   │     ├──run_pointnid.m
+│   │   │   │     ├──Qfunc.m
+│   │   │   │     └──simulation_nid.m
+│   │   │   │ 
+│   │   │   ├──PointID
+│   │   │   └──run_table_7.m
+│   │   │
 │   │   └── result_table_7/
 │   │
 │   ├── table_8/
