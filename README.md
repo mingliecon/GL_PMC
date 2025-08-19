@@ -87,7 +87,13 @@ Replication-Package/
 │   │
 │   ├── table_8/
 │   │   ├── src_table_8/
+│   │   │   ├──create_interaction_variables.m
+│   │   │   ├──MC_AGG_20230909.m
+│   │   │   ├──Qfunc.m
+│   │   │   └──run_table_8.m
+│   │   │
 │   │   └── result_table_8/
+│   │       └──table8.csv
 │   │
 │   ├── figure_2_3/
 │   │   ├── src_figure_2_3/
