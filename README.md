@@ -19,8 +19,9 @@ It contains all scripts and output files necessary to reproduce the tables and f
 
 ---
 
-## 1. Introduction of the project
-we could add a description of the project, such as the abstract of the paper here ???
+## 1. Introduction
+This repository provides the replication codes for Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*  
+
 
 ---
 
