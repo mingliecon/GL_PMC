@@ -3,7 +3,7 @@
 **Authors:** Wayne Yuan Gao and Ming Li  
 **Last Updated:** August 2025  
 
-This repository provides the replication codes for Gao and Li, *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*  
+This repository provides the replication codes for Gao and Li (2025), *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”*  
 
 It contains all scripts and output files necessary to reproduce the tables and figures reported in the paper.  
 > ⚠️ **Note**: Due to confidentiality restrictions, the empirical datasets are not included in this repository. As a result, Tables 3–5 cannot be fully replicated, though the corresponding code is provided.
@@ -13,14 +13,15 @@ It contains all scripts and output files necessary to reproduce the tables and f
 
 ## Content Page of README
 
-1. [Introduction of the Project](#1-introduction-of-the-project)  
+1. [Introduction](#1-introduction-of-the-project)  
 2. [Description of Package Content](#2-description-of-package-content)  
 3. [Computational Requirements](#3-computational-requirements)  
 
 ---
 
-## 1. Introduction of the project
-we could add a description of the project, such as the abstract of the paper here ???
+## 1. Introduction
+The simulation folder includes all codes necessary to replicate the paper’s simulation results, along with a sample of the results in CSV format. The empirical folder contains the codes required to replicate the empirical results; however, due to confidentiality restrictions, the NielsenIQ dataset used in the paper is not included in this repository. Finally, the algorithm folder provides three illustrations of the algorithm implemented in our code. 
+
 
 ---
 
@@ -162,7 +163,7 @@ Replication-Package/
 ## 3. Computational requirements
 
 **Hardware used:**  
-- (Specify your hardware setup if needed)
+- MacBook Pro M2 Pro with 12 core CPU, 19 core GPU, 16 core Neural Engine, 32GB unified memory, 2TB SSD storage. 
 
 **Software:**  
 - MATLAB Version 24.2 (R2024b)  
