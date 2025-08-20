@@ -20,7 +20,7 @@ It contains all scripts and output files necessary to reproduce the tables and f
 ---
 
 ## 1. Introduction
-This repository provides the replication codes for Gao and Li (2025), *“Identification of Semiparametric Panel Multinomial Choice Models with Infinite-Dimensional Fixed Effects.”* The simulation folder includes all codes necessary to replicate the paper’s simulation results, along with a sample of the results in CSV format. The empirical folder contains the codes required to replicate the empirical results; however, due to confidentiality restrictions, the NielsenIQ dataset used in the paper is not included in this repository. Finally, the algorithm folder provides three illustrations of the algorithm implemented in our code. 
+The simulation folder includes all codes necessary to replicate the paper’s simulation results, along with a sample of the results in CSV format. The empirical folder contains the codes required to replicate the empirical results; however, due to confidentiality restrictions, the NielsenIQ dataset used in the paper is not included in this repository. Finally, the algorithm folder provides three illustrations of the algorithm implemented in our code. 
 
 
 ---
@@ -163,7 +163,7 @@ Replication-Package/
 ## 3. Computational requirements
 
 **Hardware used:**  
-- (Specify your hardware setup if needed)
+- MacBook Pro M2 Pro with 12 core CPU, 19 core GPU, 16 core Neural Engine, 32GB unified memory, 2TB SSD storage. 
 
 **Software:**  
 - MATLAB Version 24.2 (R2024b)  
