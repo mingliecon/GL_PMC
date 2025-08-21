@@ -142,15 +142,17 @@ Replication-Package/
 │   │   │   └──Qfunc.m
 │   │   │ 
 │   │   └── result_figure_2_3/
-│   │       ├──Sim_3D_Grid_sieve_theta_1.png
-│   │       └──Sim_3D_trues_beta_1.png
+│   │       ├──figure2.png
+│   │       └──figure3.png
 │   │
 │   ├── result_simulation/
 │   │   ├──table1.csv
 │   │   ├──table2_bottom_part.csv
 │   │   ├──table2_upper_part.csv
 │   │   ├──table7.csv
-│   │   └──table8.csv
+│   │   ├──table8.csv
+│   │   ├──figure2.csv
+│   │   └──figure3.csv
 │   │   
 │   └── run_simulation.m
 │
