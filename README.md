@@ -1,4 +1,4 @@
-# Repository of Replication Codes for Gao and Li (2025)
+# Replication Codes for Gao and Li (2025)
 
 **Authors:** Wayne Yuan Gao and Ming Li  
 **Last Updated:** August 2025  
